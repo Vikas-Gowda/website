@@ -68,7 +68,7 @@ ol { list-style-type: decimal; }
 #content ul.service span.desc { line-height:28px; }
 #content ul.service li.last { width: 100%; text-align: center; }
 #content ul.service li.last .text-outer { display: inline-block; max-width: 390px; text-align: left; }
-.owl-carousel .owl-item > div { text-align: center; }
+.owl-carousel .owl-item > div { text-align: center; margin: 60px 0; }
 .owl-carousel .owl-item > div img { width: auto; display: inline-block;}
 
 /*----------------------------------------------------------------------------------------------------*/
