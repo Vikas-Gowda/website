@@ -5,6 +5,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	
 	<!-- Owl Stylesheets -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -15,18 +18,26 @@
 	<!-- Owl Script -->
 	<script src="js/owl.carousel.js"></script>
 	
+	<!-- Slick nav -->
+	<link rel="stylesheet" href="css/slicknav.css" />
+	<script src="js/jquery.slicknav.min.js"></script>
+	
+	<!-- Banner -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	
 </head>
 <body>
 
 <div id="header">
 	<div class="container">
-		<div class="group">
+		<div class="row">
 		
-			<div class="col-5">
+			<div class="col-md-5">
 				<a href="#" class="logo"><img src="images/ui/whtl.png" alt="WHTL icon" width="199px" height="70px"/></a>
 			</div>
 			
-			<div class="col-7">
+			<div class="col-md-7">
 				<ul class="menu">
 					<li><a href="#">HOME</a></li>
 					<li>
@@ -113,22 +124,64 @@
 					<li><a href="#">CAREERS</a></li>
 					<li><a href="#">CONTACT</a></li>
 				</ul>
+				<div class="mobile-menu"></div>
 			</div>
-			
 		</div>
 	</div>
 </div>
 
+<div id="banner">
+	
+	<ul class="banner">
+		<li>
+			<span class="title">Mobile App Development</span>
+			<span class="sub-title">Cutting Edge Mobile Applications, from Idea to Prototype, on Android and iOS Platforms.</span>
+		</li>
+		
+		<li>
+			<span class="title">WHTL is your one stop solution for all things digital</span>
+			<h1 class="sub-title">Websites | Mobile Apps | E-commerce | Digital Marketing</h1>
+		</li>
+		
+		<li>
+			<span class="title">Start selling your products & services online in weeks!</span>
+			<span class="sub-title">E-commerce development to help you setup & manage your business, online.</span>
+		</li>
+		
+		<li>
+			<span class="title">Get more leads and convert more business opportunities!</span>
+			<span class="sub-title">Search Engine Optimization and Marketing to help you generate more business.</span>
+		</li>
+		
+		<li>
+			<span class="title">Mobile App Development</span>
+			<span class="sub-title">Cutting Edge Mobile Applications, from Idea to Prototype, on Android and iOS Platforms.</span>
+		</li>
+		
+		<li>
+			<span class="title">WHTL is your one stop solution for all things digital</span>
+			<h1 class="sub-title">Websites | Mobile Apps | E-commerce | Digital Marketing</h1>
+		</li>
+	</ul>
+		
+		<p>
+			<a class="contactus">CONTACT US</a>
+			
+		</p>
+</div>
+
 <div id="content">
 	<div class="container">
-		<div class="group">
-			<p>
+		
+		<!--Our Service Section starts-->
+		<div id="services">
+			<div>
 				<span class="sub-title"> What we do</span>
 				<strong class="heading">AMAZING SERVICES</strong>
-			</p>
+			</div>
 			
-			<ul class="service">
-				<li class="col-4">
+			<ul class="service row">
+				<li class="col-sm-12 col-md-4">
 					<span class="text-outer">
 						<span class="web-design img"></span>
 						<span class="text-inner">
@@ -138,7 +191,7 @@
 					 </span>
 				</li>
 				
-				<li class="col-4">
+				<li class="col-sm-12 col-md-4">
 					<span class="text-outer">
 						<span class="web-portal img"></span>
 						<span class="text-inner">
@@ -148,7 +201,7 @@
 					 </span>
 				</li>
 				
-				<li class="col-4">
+				<li class="col-sm-12 col-md-4">
 					<span class="text-outer">
 						<span class="content-manage img"></span>
 						<span class="text-inner">
@@ -158,7 +211,7 @@
 					 </span>
 				</li>
 				
-				<li class="col-4">
+				<li class="col-sm-12 col-md-4">
 					<span class="text-outer">
 						<span class="ecommerce img"></span>
 						<span class="text-inner">
@@ -168,7 +221,7 @@
 					 </span>
 				</li>
 				
-				<li class="col-4">
+				<li class="col-sm-12 col-md-4">
 					<span class="text-outer">
 						<span class="mobile-app img"></span>
 						<span class="text-inner">
@@ -178,7 +231,7 @@
 					 </span>
 				</li>
 				
-				<li class="col-4">
+				<li class="col-sm-12 col-md-4">
 					<span class="text-outer">
 						<span class="marketing img"></span>
 						<span class="text-inner">
@@ -188,7 +241,7 @@
 					 </span>
 				</li>
 				
-				<li class="col-4 last">
+				<li class="col-sm-12 col-md-4 last">
 					<span class="text-outer">
 						<span class="branding img"></span>
 						<span class="text-inner">
@@ -198,14 +251,16 @@
 					 </span>
 				</li>
 			</ul>
-			
 		</div>
+		<!--Our Service Section ends-->
 		
-		<div class="group">
-			<p>
+		<!--Our Clients Section ends-->
+		<div id="our-clients">
+			<div>
 				<strong class="heading">OUR CLIENTS</strong>
-			</p>
-			<div class="owl-carousel">
+			</div>
+			<div class="owl-carousel index">
+			
 				<div><img src="images/Flipkart.jpg" alt="Flipkart"></div>
 				<div><img src="images/Sherwood-High-School.jpg" alt="Sherwood School"></div>
 				<div><img src="images/3-wibmo.jpg" alt="3 wibmo"></div>
@@ -223,16 +278,18 @@
 				<div><img src="images/Judaica-Place.jpg" alt="Judaica Place"></div>
 				<div><img src="images/hotel-ekant.jpg" alt="hotel ekant"></div>
 				<div><img src="images/arya-samaj.jpg" alt="arya samaj"></div>							
+		
 			</div>
 		</div>	
+		<!--Our Clients Section ends-->
 		
 	</div>
 </div>
 
 <div id="footer">
 	<div class="container">
-		<div class="group">			
-			<div class="col-6">
+		<div class="row">			
+			<div class="col-sm-12 col-md-6">
 				<h4>Stay Connected</h4>
 				<p>Subscribe to our ad-free, spam-free newsletter to receive regular updates</p>
 				
@@ -246,7 +303,7 @@
 				</form>
 			</div>
 			
-			<div class="col-6 icons">
+			<div class="col-sm-12 col-md-6">
 				<div class="combine">
 					<div class="text-widget">
 
@@ -266,9 +323,9 @@
 	</div>
 	
 	<div class="container gap">
-		<div class="group">			
+		<div class="row">			
 			
-			<div class="col-3">
+			<div class="col-sm-12 col-md-3">
 				<ul class="lmenu">
 					<li><a href="#">E-Commerce Website Design</a></li>
 					<li><a href="#">Web Portal Development</a></li>
@@ -277,7 +334,7 @@
 				</ul>
 			</div>
 			
-			<div class="col-3">
+			<div class="col-sm-12 col-md-3">
 				<ul class="lmenu">
 					<li><a href="#">Responsive Website Design </a></li>
 					<li><a href="#">Website Maintenance</a></li>
@@ -286,7 +343,7 @@
 				</ul>
 			</div>
 			
-			<div class="col-3">
+			<div class="col-sm-12 col-md-3">
 				<ul class="lmenu">
 					<li><a href="#">Mobile Apps Development</a></li>
 					<li><a href="#">Android Development</a></li>
@@ -295,7 +352,7 @@
 				</ul>
 			</div>
 			
-			<div class="col-3">
+			<div class="col-sm-12 col-md-3">
 				<ul class="lmenu">
 					<li><a href="#">Online Marketing</a></li>
 					<li><a href="#">SEO Services</a></li>
@@ -307,19 +364,20 @@
 		</div>
 	</div>
 	
-	<div class="container">
-		<div class="group">
+	<div class="container last">
+		
 			<div class="copyright">
-					<p  class="lfoot">Copyright &copy; 2017 Webhosting Tech Labs </p>	
+					<div class="lfoot">Copyright &copy; 2017 Webhosting Tech Labs </p>	
 			</div>			
 				
-		</div>
 	</div>
 	
 	
 </div>
 <script type="text/javascript">
 jQuery(document).ready(function(){
+
+	//Sticky header
 	jQuery(window).scroll(function(){
 		  var header = jQuery('#header');
 		  var scroll = jQuery(window).scrollTop();
@@ -331,19 +389,43 @@ jQuery(document).ready(function(){
 		  }
 	});
 	
+	//Mobile menu
+	jQuery('.menu').slicknav({
+			label: '',
+			duration: 1000,
+			prependTo:'.mobile-menu'
+	});
+
+	//Banner slider
+	jQuery('.banner').bxSlider({
+			mode : 'vertical',
+			speed : 500,
+	        pause: 5000,
+	        pager: false,
+	        controls: false,
+			auto: true
+	});
+	
+	 //Clients slider
 	 jQuery(".owl-carousel").owlCarousel({
         navigation : false, // Show next and prev buttons
         autoplay:true,
         items :6,
         loop:true,
-	    autoplayTimeout:1000,
-        itemsCustom : [
-                       [0, 2],
-                       [640, 3],
-                       [980, 5],  
-                       [1000, 6] 
-             		],
+	    autoplayTimeout:3000,
+	    responsive:{
+	        0:{
+	            items:2
+	        },
+	        768:{
+	            items:3
+	        },
+	        1000:{
+	            items:5
+	        }
+    	}
       });
+      
 });
 </script>
 </body>
